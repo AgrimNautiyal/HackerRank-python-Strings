@@ -1,0 +1,7 @@
+a=input()
+b=input()
+c=b.split(' ')
+l=list(a)
+l[int(c[0])] = c[1]
+l=''.join(map(str,l))
+print(l)
