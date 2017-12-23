@@ -1,0 +1,8 @@
+a=input()
+b=''
+for i in range(0,len(a)):
+    if(a[i].isupper()):
+        b=b+a[i].lower()
+    else:
+        b=b+a[i].upper()
+print(b)
