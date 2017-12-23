@@ -1,0 +1,6 @@
+a=input()
+b=input()
+print("Hello", end=' ')
+print(a,end=' ')
+print(b,end='')
+print("! You just delved into python.")
